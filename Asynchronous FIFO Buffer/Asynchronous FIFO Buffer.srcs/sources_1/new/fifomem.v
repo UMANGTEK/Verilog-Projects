@@ -13,6 +13,6 @@ module fifomem #(parameter DATASIZE = 8,
     assign rdata = mem[raddr];
     
     always@(posedge wclk) begin
-        if(wclk && !wfull) mem[waddr] <= wdata;
+        if(wclken && !wfull) mem[waddr] <= wdata;
     end
 endmodule
