@@ -11,3 +11,7 @@
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/umang/Resume/Verilog-Projects/Asynchronous FIFO Buffer/Asynchronous FIFO Buffer.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source async_fifo_tb.tcl
+close_sim

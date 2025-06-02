@@ -1,0 +1,10 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx_Vitis/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto ed7a2443fae048ad9cadc618f9c222ff --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_i2c_tmp3_fsm_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_i2c_tmp3_fsm xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'done' on this module [C:/Xilinx_Vitis/Projects/Zybo_Verilog/I2C_TMP_final/I2C_TMP_final.srcs/sim_1/new/tb.v:40]
+ERROR: [VRFC 10-3180] cannot find port 'temp_lsb' on this module [C:/Xilinx_Vitis/Projects/Zybo_Verilog/I2C_TMP_final/I2C_TMP_final.srcs/sim_1/new/tb.v:39]
+ERROR: [VRFC 10-3180] cannot find port 'temp_msb' on this module [C:/Xilinx_Vitis/Projects/Zybo_Verilog/I2C_TMP_final/I2C_TMP_final.srcs/sim_1/new/tb.v:38]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
