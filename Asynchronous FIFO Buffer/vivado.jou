@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Jun  2 16:03:15 2025
+# Process ID: 6168
+# Current directory: C:/Users/umang/Resume/Verilog-Projects/Asynchronous FIFO Buffer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30476 C:\Users\umang\Resume\Verilog-Projects\Asynchronous FIFO Buffer\Asynchronous FIFO Buffer.xpr
+# Log file: C:/Users/umang/Resume/Verilog-Projects/Asynchronous FIFO Buffer/vivado.log
+# Journal file: C:/Users/umang/Resume/Verilog-Projects/Asynchronous FIFO Buffer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/umang/Resume/Verilog-Projects/Asynchronous FIFO Buffer/Asynchronous FIFO Buffer.xpr}

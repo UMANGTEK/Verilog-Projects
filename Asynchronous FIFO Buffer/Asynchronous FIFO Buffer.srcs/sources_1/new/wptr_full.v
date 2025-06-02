@@ -17,8 +17,9 @@ module wptr_full#(parameter ADDRSIZE = 4)(
             wptr <= wgreynext;
         end
     end
-    
+    //Write address can be in binary as it is used in wclk domain only.
     assign waddr = wbin[ADDRSIZE-1:0];
+    
     assign wbinnext = wbin + (winc & ~wfull);
     assign wgreynext = (wbinnext>>1) ^ wbinnext;
     

@@ -17,8 +17,9 @@ module rptr_empty#(parameter ADDRSIZE = 4)(
             rptr <= rgreynext;
         end
     end
-    
+    //Read address can be in binary as it is used in rclk domain only.
     assign raddr = rbin[ADDRSIZE-1:0];
+    
     assign rbinnext = rbin + (rinc & ~rempty);
     assign rgreynext = (rbinnext>>1) ^ rbinnext;
     

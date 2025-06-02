@@ -1,0 +1,104 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 6168
+License: Customer
+
+Current time: 	Mon Jun 02 16:03:40 IST 2025
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1200
+Screen resolution (DPI): 125
+Available screens: 2
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx_Vitis/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx_Vitis/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	umang
+User home directory: C:/Users/umang
+User working directory: C:/Users/umang/Resume/Verilog-Projects/Asynchronous FIFO Buffer
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: C:/Xilinx_Vitis/Vivado
+HDI_APPROOT: C:/Xilinx_Vitis/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx_Vitis/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx_Vitis/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/umang/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/umang/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/umang/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx_Vitis/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/umang/Resume/Verilog-Projects/Asynchronous FIFO Buffer/vivado.log
+Vivado journal file location: 	C:/Users/umang/Resume/Verilog-Projects/Asynchronous FIFO Buffer/vivado.jou
+Engine tmp dir: 	C:/Users/umang/Resume/Verilog-Projects/Asynchronous FIFO Buffer/.Xil/Vivado-6168-Laptop_Umang
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx_Vitis/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx_Vitis/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx_Vitis/Vivado/2020.1
+XILINX_SDK: C:/Xilinx_Vitis/Vitis/2020.1
+XILINX_VITIS: C:/Xilinx_Vitis/Vitis/2020.1
+XILINX_VIVADO: C:/Xilinx_Vitis/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx_Vitis/Vivado/2020.1
+
+
+GUI allocated memory:	155 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,045 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 90 MB (+91511kb) [00:00:13]
+// [Engine Memory]: 1,045 MB (+943987kb) [00:00:13]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\umang\Resume\Verilog-Projects\Asynchronous FIFO Buffer\Asynchronous FIFO Buffer.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/umang/Resume/Verilog-Projects/Asynchronous FIFO Buffer/Asynchronous FIFO Buffer.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,045 MB. GUI used memory: 59 MB. Current time: 6/2/25, 4:03:41 PM IST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/umang/Resume/Verilog-Projects/Asynchronous FIFO Buffer/Asynchronous FIFO Buffer.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Xilinx_Vitis/Projects/Asynchronous FIFO Buffer' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'C:/Users/umang/Users/umang/AppData/Roaming/Xilinx/Vivado/2020.1/xhub/board_store/xilinx_board_store'; using path 'C:/Users/umang/AppData/Roaming/Xilinx/Vivado/2020.1/xhub/board_store/xilinx_board_store' instead. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 108 MB (+14610kb) [00:00:22]
+// WARNING: HEventQueue.dispatchEvent() is taking  3693 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx_Vitis/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 1061.488 ; gain = 0.000 
