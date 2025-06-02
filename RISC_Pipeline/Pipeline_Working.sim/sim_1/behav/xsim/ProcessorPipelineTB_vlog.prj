@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Pipeline_Working.srcs/sources_1/new/ALU.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/ALUControl.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/Adder.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/DataMemory.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/EX_MEM.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/Extend.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/ForwardingUnit.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/ID_EX.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/IF_ID.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/InstructionMemory.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/MEM_WB.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/MUXALUSrcB.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/MUXForwardB.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/MUXPCSrc.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/MUXRegWriteSrc.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/MUXWriteDataSrc.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/MainControl.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/MuxForwardA.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/ProcessorPipeline.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/ProgramCounter.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/RegisterFile.v" \
+"../../../../Pipeline_Working.srcs/sources_1/new/Stalling.v" \
+"../../../../Pipeline_Working.srcs/sim_1/new/ProcessorPipelineTB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

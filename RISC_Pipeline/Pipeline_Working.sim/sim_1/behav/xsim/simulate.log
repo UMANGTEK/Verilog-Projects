@@ -1,0 +1,9 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Vtime=                   0 value in Reg1=ffffffff,Reg4=ffffffff,Reg7=ffffffff,Reg9=xxxxxxxx, at memlocation 12=xx,13=xx,14=xx,15=xx
+Vtime=               50000 value in Reg1=00090502,Reg4=ffffffff,Reg7=ffffffff,Reg9=xxxxxxxx, at memlocation 12=xx,13=xx,14=xx,15=xx
+Vtime=               55000 value in Reg1=00090502,Reg4=ffffffff,Reg7=ffffffff,Reg9=xxxxxxxx, at memlocation 12=ff,13=ff,14=af,15=cf
+Vtime=               60000 value in Reg1=00090502,Reg4=ffffafcf,Reg7=ffffffff,Reg9=xxxxxxxx, at memlocation 12=ff,13=ff,14=af,15=cf
+Vtime=               80000 value in Reg1=00090502,Reg4=ffffafcf,Reg7=fff5713e,Reg9=xxxxxxxx, at memlocation 12=ff,13=ff,14=af,15=cf
+Vtime=               90000 value in Reg1=00090502,Reg4=ffffafcf,Reg7=fff5713e,Reg9=fff6f8a3, at memlocation 12=ff,13=ff,14=af,15=cf
+$finish called at time : 96 ns : File "C:/Xilinx_Vitis/Projects/CompArch/Pipeline_Working/Pipeline_Working.srcs/sim_1/new/ProcessorPipelineTB.v" Line 106
