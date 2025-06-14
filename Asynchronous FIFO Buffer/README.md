@@ -7,14 +7,14 @@ This project implements an **Asynchronous FIFO (First-In-First-Out) buffer** in 
 ## 🔧 Features
 
 - **Dual Clock Domains**  
-  Separate `wr_clk` and `rd_clk` to support asynchronous data transfer.
+  Separate `wclk` and `rclk` to support asynchronous data transfer.
 
 - **Gray Code Pointers**  
   Used for reliable synchronization of read and write pointers across clock domains.
 
 - **Status Flags**  
-  - `full` — FIFO is full
-  - `empty` — FIFO is empty
+  - `wfull` — FIFO is full
+  - `rempty` — FIFO is empty
 
 - **Parameterizable Depth and Width**  
   Customize FIFO size using parameters.
