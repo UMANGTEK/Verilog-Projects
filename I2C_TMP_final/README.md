@@ -34,13 +34,6 @@ The transition diagram is included as an image in the repo for easy visualizatio
 
 An ILA core is instantiated for debugging internal signals such as state transitions, bit counters, and SDA/SCL behavior.
 
-## 🧪 To Do / Improvements
-
-- Add error handling for NACK cases.
-- Modularize into a bus-accessible peripheral.
-- Add configurable slave/register address.
-- Testbench automation.
-
 ## 🧰 Requirements
 
 - Xilinx Vivado (for ILA support)
