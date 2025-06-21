@@ -1,0 +1,235 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 17892
+License: Customer
+
+Current time: 	Sat Jun 21 00:01:30 IST 2025
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1200
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx_Vitis/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx_Vitis/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	umang
+User home directory: C:/Users/umang
+User working directory: C:/Xilinx_Vitis/ip_repo
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: C:/Xilinx_Vitis/Vivado
+HDI_APPROOT: C:/Xilinx_Vitis/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx_Vitis/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx_Vitis/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/umang/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/umang/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/umang/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx_Vitis/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Xilinx_Vitis/ip_repo/vivado.log
+Vivado journal file location: 	C:/Xilinx_Vitis/ip_repo/vivado.jou
+Engine tmp dir: 	C:/Xilinx_Vitis/ip_repo/.Xil/Vivado-17892-Laptop_Umang
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx_Vitis/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx_Vitis/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx_Vitis/Vivado/2020.1
+XILINX_SDK: C:/Xilinx_Vitis/Vitis/2020.1
+XILINX_VITIS: C:/Xilinx_Vitis/Vitis/2020.1
+XILINX_VIVADO: C:/Xilinx_Vitis/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx_Vitis/Vivado/2020.1
+
+
+GUI allocated memory:	161 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,040 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  1064 ms.
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 81 MB (+82289kb) [00:00:20]
+// [Engine Memory]: 1,040 MB (+939219kb) [00:00:20]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Xilinx_Vitis\ip_repo\edit_adder_v1_0.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Xilinx_Vitis/ip_repo/edit_adder_v1_0.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,040 MB. GUI used memory: 54 MB. Current time: 6/21/25, 12:01:32 AM IST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Xilinx_Vitis/ip_repo/edit_adder_v1_0.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Vitis/ip_repo/adder_1.0'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 88 MB (+3031kb) [00:00:41]
+// [GUI Memory]: 106 MB (+14245kb) [00:00:42]
+// WARNING: HEventQueue.dispatchEvent() is taking  11865 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx_Vitis/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:49 ; elapsed = 00:00:27 . Memory (MB): peak = 1061.012 ; gain = 0.000 
+// Project name: edit_adder_v1_0; location: C:/Xilinx_Vitis/ip_repo; part: xc7z010clg400-1
+dismissDialog("Open Project"); // bz (cs)
+// [GUI Memory]: 114 MB (+3212kb) [00:00:51]
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 597ms to process. Increasing delay to 3000 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// PAPropertyPanels.initPanels (adder_v1_0.v) elapsed time: 0.2s
+// Elapsed time: 52 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, adder_v1_0 (adder_v1_0.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, adder_v1_0 (adder_v1_0.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// [GUI Memory]: 128 MB (+8428kb) [00:01:43]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 3, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 3, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// bz (cs):  Open IP-XACT File : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// WARNING: HEventQueue.dispatchEvent() is taking  1510 ms.
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::open_ipxact_file {C:\Xilinx_Vitis\ip_repo\adder_1.0\component.xml} 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+dismissDialog("Open IP-XACT File"); // bz (cs)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // ar (J, cs)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Customization Parameters Wizard"); // h (M, cs)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// [GUI Memory]: 143 MB (+9424kb) [00:01:54]
+// WARNING: HEventQueue.dispatchEvent() is taking  1064 ms.
+// Tcl Message: ipx::merge_project_changes hdl_parameters [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Elapsed time: 26 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (J, cs)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cs)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 3 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// bz (cs):  Package IP : addNotify
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/Xilinx_Vitis/ip_repo/adder_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Xilinx_Vitis/ip_repo/adder_1.0' 
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+// [GUI Memory]: 153 MB (+3043kb) [00:02:33]
+// Elapsed time: 95 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, adder_v1_0 (adder_v1_0.v), adder_v1_0_S00_AXI_inst : adder_v1_0_S00_AXI (adder_v1_0_S00_AXI.v)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, adder_v1_0 (adder_v1_0.v), adder_v1_0_S00_AXI_inst : adder_v1_0_S00_AXI (adder_v1_0_S00_AXI.v)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 48 seconds
+selectCodeEditor("adder_v1_0_S00_AXI.v", 197, 427); // bP (w, cs)
+typeControlKey((HResource) null, "adder_v1_0_S00_AXI.v", 'c'); // bP (w, cs)
+// Elapsed time: 72 seconds
+selectCodeEditor("adder_v1_0_S00_AXI.v", 443, 100); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adder_v1_0.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - adder", 2); // m (l, cs)
+// Elapsed time: 92 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adder_v1_0_S00_AXI.v", 3); // m (l, cs)
+selectCodeEditor("adder_v1_0_S00_AXI.v", 358, 252); // bP (w, cs)
+selectCodeEditor("adder_v1_0_S00_AXI.v", 400, 192); // bP (w, cs)
+selectCodeEditor("adder_v1_0_S00_AXI.v", 410, 204); // bP (w, cs)
+selectCodeEditor("adder_v1_0_S00_AXI.v", 368, 139); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,040 MB. GUI used memory: 91 MB. Current time: 6/21/25, 12:31:33 AM IST
+// Elapsed time: 2550 seconds
+selectCodeEditor("adder_v1_0_S00_AXI.v", 144, 157); // bP (w, cs)
+selectCodeEditor("adder_v1_0_S00_AXI.v", 151, 136); // bP (w, cs)
+// Elapsed time: 578 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,040 MB. GUI used memory: 81 MB. Current time: 6/21/25, 1:01:34 AM IST
+// Elapsed time: 927 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adder_v1_0_S00_AXI.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - adder", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adder_v1_0.v", 1); // m (l, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("adder_v1_0.v", 222, 67); // bP (w, cs)
+selectCodeEditor("adder_v1_0.v", 215, 34); // bP (w, cs)
+selectCodeEditor("adder_v1_0.v", 199, 46); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - adder", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adder_v1_0_S00_AXI.v", 3); // m (l, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  3604 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2142 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6686 ms. Increasing delay to 20058 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 357 ms. Decreasing delay to 2357 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6307 ms. Increasing delay to 18921 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4577 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 531 ms. Decreasing delay to 2531 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8162 ms. Increasing delay to 24486 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 507 ms. Decreasing delay to 2507 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2427 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6853 ms. Increasing delay to 20559 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1153 ms. Decreasing delay to 3153 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 4133ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1074 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8044 ms. Increasing delay to 24132 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1895 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 16544 ms. Increasing delay to 49632 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 206 ms. Decreasing delay to 2206 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2025 ms. Increasing delay to 6075 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 3749 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4417 ms. Increasing delay to 13251 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 318 ms. Decreasing delay to 2318 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1539 ms. Increasing delay to 4617 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6297 ms. Increasing delay to 18891 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 3172 ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2213 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1572 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,040 MB. GUI used memory: 81 MB. Current time: 6/21/25, 1:31:49 AM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  2373 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 13401 ms. Increasing delay to 40203 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 25 ms. Decreasing delay to 2025 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 24212 ms. Increasing delay to 72636 ms.
